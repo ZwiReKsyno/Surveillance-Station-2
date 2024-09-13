@@ -44,8 +44,7 @@ bash <(curl -L https://raw.githubusercontent.com/ZwiReKsyno/Surveillance-Station
 bash <(curl -L https://raw.githubusercontent.com/ZwiReKsyno/Surveillance-Station-2/main/9.2.0_11289/license/remove_license)
 ```
 ---
-### 破解60授权
-![License](https://raw.githubusercontent.com/ZwiReKsyno/Surveillance-Station-2/main/img/crack_license.png)
+
 
 
 
