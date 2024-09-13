@@ -1,8 +1,8 @@
 #!/bin/sh
-#bash <(curl -L https://raw.githubusercontent.com/ohyeah521/Surveillance-Station/main/9.2.0_11289/license/remove_license)
+#bash <(curl -L https://raw.githubusercontent.com/ZwiReKsyno/Surveillance-Station-2/main/9.2.0_11289/license/remove_license)
 
 
-# 定义一个函数来处理恢复文件操作
+# Определите функцию для обработки операций с файлами восстановления.
 process_file() {
   local dir="$1"
   local file="$2"
@@ -11,7 +11,7 @@ process_file() {
 
   cd "$dir" || exit
 
-  # 检查备份文件是否存在
+  # Проверьте, существует ли файл резервной копии
   if [ -e "./$backup" ]; then
     rm "./$file"
     mv "./$backup" "./$file"
@@ -27,7 +27,7 @@ process_file() {
 sleep 5
 
 
-# 调用函数处理每个文件
+# Вызов функции для обработки каждого файла
 process_file /var/packages/SurveillanceStation/target/lib   libssutils.so     libssutils.so_backup    0644
 process_file /var/packages/SurveillanceStation/target/sbin  sscmshostd        sscmshostd_backup       0755
 process_file /var/packages/SurveillanceStation/target/sbin  sscored           sscored_backup          0755
