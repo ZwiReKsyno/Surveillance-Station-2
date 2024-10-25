@@ -1,5 +1,5 @@
 #!/bin/sh
-#bash <(curl -L https://github.com/ZwiReKsyno/Surveillance-Station-2/raw/main/9.2.0_11289/license)
+#bash <(curl -L https://github.com/ZwiReKsyno/Surveillance-Station-2/raw/main/license)
 echo "0.0.0.0 synosurveillance.synology.com" | sudo tee -a /etc/hosts
 echo "0.0.0.0 synosurveillance.synology.com" | sudo tee -a /etc.defaults/hosts
 echo "0.0.0.0 utyupdate.synology.com" | sudo tee -a /etc/hosts
