@@ -6,20 +6,6 @@ if grep -q "synosurveillance.synology.com" /etc/hosts; then
 else
   echo "add block license server: synosurveillance.synology.com"
   echo "0.0.0.0 synosurveillance.synology.com" | sudo tee -a /etc.defaults/hosts
-  echo "0.0.0.0 utyupdate.synology.com" | sudo tee -a /etc/hosts
-  echo "0.0.0.0 utyupdate.synology.com" | sudo tee -a /etc.defaults/hosts
-  echo "0.0.0.0 license.synology.com" | sudo tee -a /etc/hosts
-  echo "0.0.0.0 license.synology.com" | sudo tee -a /etc.defaults/hosts
-  echo "0.0.0.0 update.synology.com" | sudo tee -a /etc/hosts
-  echo "0.0.0.0 update.synology.com" | sudo tee -a /etc.defaults/hosts
-  echo "0.0.0.0 pkgupdatetest.synology.com" | sudo tee -a /etc/hosts
-  echo "0.0.0.0 pkgupdatetest.synology.com" | sudo tee -a /etc.defaults/hosts
-  echo "0.0.0.0 pkgupdate.synology.com" | sudo tee -a /etc/hosts
-  echo "0.0.0.0 pkgupdate.synology.com" | sudo tee -a /etc.defaults/hosts
-  echo "0.0.0.0 SynologyNVR" | sudo tee -a /etc/hosts
-  echo "0.0.0.0 SynologyNVR" | sudo tee -a /etc.defaults/hosts
-  echo "0.0.0.0 pkgupdate7.synology.com" | sudo tee -a /etc/hosts
-  echo "0.0.0.0 pkgupdate7.synology.com" | sudo tee -a /etc.defaults/hosts
-
+  
 fi
 
