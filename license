@@ -6,6 +6,5 @@ if grep -q "synosurveillance.synology.com" /etc/hosts; then
 else
   echo "add block license server: synosurveillance.synology.com"
   echo "0.0.0.0 synosurveillance.synology.com" | sudo tee -a /etc.defaults/hosts
-  
 fi
 
