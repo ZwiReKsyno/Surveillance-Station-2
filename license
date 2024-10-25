@@ -1,8 +1,8 @@
 #!/bin/sh
 #bash <(curl -L https://github.com/ZwiReKsyno/Surveillance-Station-2/raw/main/license)
 
-if grep -q "synosurveillance.synology.com" /etc/hosts; then
-  echo "already blocked license server: synosurveillance.synology.com."
+
+
 else
   echo "add block license server: synosurveillance.synology.com"
   echo "0.0.0.0 synosurveillance.synology.com" | sudo tee -a /etc.defaults/hosts
