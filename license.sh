@@ -1,3 +1,4 @@
+!/bin/sh
 echo "0.0.0.0 utyupdate.synology.com" | sudo tee -a /etc/hosts
 echo "0.0.0.0 utyupdate.synology.com" | sudo tee -a /etc.defaults/hosts
 echo "0.0.0.0 license.synology.com" | sudo tee -a /etc/hosts
